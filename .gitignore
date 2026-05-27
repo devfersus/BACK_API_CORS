@@ -1,0 +1,58 @@
+# Visual Studio
+.vs/
+.vscode/
+*.user
+*.suo
+*.sln.docstates
+
+# Build results
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+
+# User-specific files
+*.rsuser
+*.userprefs
+
+# Publish profiles (contienen credenciales)
+PublishProfiles/
+*.pubxml
+*.pubxml.user
+
+# NuGet
+*.nupkg
+*.snupkg
+.nuget/
+
+# Local environment
+.env
+.env.*
+appsettings.local.json
+
+# Configuración sensible
+**/appsettings.Development.json
+**/appsettings.Production.json
+**/appsettings.Staging.json
+**/appsettings.local.json
+**/launchSettings.json
+ky.json
+
+# IDEs adicionales
+.idea/
+*.sln.iml
+.fleet/
+
+# Logs y temporales
+*.log
+logs/
+*.tmp
+*.temp
+Temp/
+tmp/
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini

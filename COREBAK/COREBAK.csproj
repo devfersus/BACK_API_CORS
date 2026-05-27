@@ -1,0 +1,52 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AWSSDK.S3" Version="3.7.412.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Http" Version="2.3.0" />
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.1.2" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="9.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="9.0.10" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.10">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="System.Linq" Version="4.3.0" />
+    <PackageReference Include="Twilio" Version="7.14.2" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="PropiedadDetalle_\CasosUso\Web\ActualizarPropiedadDetalle\Aplicacion\Constantes\" />
+    <Folder Include="PropiedadDetalle_\CasosUso\Web\ActualizarPropiedadDetalle\Dominio\ValueObjects\" />
+    <Folder Include="PropiedadDetalle_\CasosUso\Web\ListarPropiedadDetalle\Aplicacion\Constantes\" />
+    <Folder Include="PropiedadDetalle_\CasosUso\Web\ListarPropiedadDetalle\Aplicacion\Dto\" />
+    <Folder Include="PropiedadDetalle_\CasosUso\Web\ListarPropiedadDetalle\Dominio\ValueObjects\" />
+    <Folder Include="PropiedadDetalle_\CasosUso\Web\RegistrarPropiedadDetalle\Aplicacion\Constantes\" />
+    <Folder Include="PropiedadDetalle_\CasosUso\Web\RegistrarPropiedadDetalle\Dominio\ValueObjects\" />
+    <Folder Include="TipoListado_\CasosUso\Web\ActualizarTipoListado\Aplicacion\Constantes\" />
+    <Folder Include="TipoListado_\CasosUso\Web\ActualizarTipoListado\Dominio\ValueObjects\" />
+    <Folder Include="TipoListado_\CasosUso\Web\ListarTipoListado\Aplicacion\Constantes\" />
+    <Folder Include="TipoListado_\CasosUso\Web\ListarTipoListado\Aplicacion\Dto\" />
+    <Folder Include="TipoListado_\CasosUso\Web\ListarTipoListado\Dominio\ValueObjects\" />
+    <Folder Include="TipoListado_\CasosUso\Web\RegistrarTipoListado\Aplicacion\Constantes\" />
+    <Folder Include="TipoListado_\CasosUso\Web\RegistrarTipoListado\Dominio\ValueObjects\" />
+    <Folder Include="TipoPropiedad_\CasosUso\Web\ActualizarTipoPropiedad\Aplicacion\Constantes\" />
+    <Folder Include="TipoPropiedad_\CasosUso\Web\ActualizarTipoPropiedad\Dominio\ValueObjects\" />
+    <Folder Include="TipoPropiedad_\CasosUso\Web\EliminarTipoPropiedad\Aplicacion\Constantes\" />
+    <Folder Include="TipoPropiedad_\CasosUso\Web\EliminarTipoPropiedad\Dominio\ValueObjects\" />
+    <Folder Include="TipoPropiedad_\CasosUso\Web\ListarTipoPropiedad\Aplicacion\Constantes\" />
+    <Folder Include="TipoPropiedad_\CasosUso\Web\ListarTipoPropiedad\Aplicacion\Dto\" />
+    <Folder Include="TipoPropiedad_\CasosUso\Web\ListarTipoPropiedad\Dominio\ValueObjects\" />
+    <Folder Include="TipoPropiedad_\CasosUso\Web\RegistrarTipoPropiedad\Aplicacion\Constantes\" />
+    <Folder Include="TipoPropiedad_\CasosUso\Web\RegistrarTipoPropiedad\Dominio\ValueObjects\" />
+  </ItemGroup>
+
+</Project>
